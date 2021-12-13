@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@nuxtjs/color-mode": "^2.1.1",
+    "nuxt-fontawesome": "^0.4.0"
+  }
+}
