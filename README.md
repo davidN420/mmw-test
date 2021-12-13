@@ -1,1 +1,7 @@
-Mainline Menswear Front End Technical Task
+# Mainline Menswear Front End Technical Task
+
+I completed the task using NuxtJS so hopefully you can get the app running without any trouble. I was able to access both of the GET endpoints and use the data in my application, but I was unable to get the POST request to work successfully. I was getting 500 error code when trying to post and I couldn't work out what was casuing the error, whether it was something simple like a slightly off format or something more complex I currently don't understand. I was able to post to a mock API I set up myself and the data appeared to be in the correct format so that's something at least. The code for the POST request is currently commented out in the mmw-test/pages/items/_product_id/index.vue_ file in the methods tag.
+
+I didn't use LESS or SASS for the style as I am unfamiliar with these frameworks and as I was learning to use Nuxt to complete the task I didn't want to spend the time to learn that as well and possibly delay finishing the task. I was able to implement both themes and you can switch between the themes in the app using Nuxt Color Mode which I did find particularly cool when I was able to get it to work. The styling isn't perfect, in particular the form validation could probably do with a bit more work. But i'm happy with what I've done in the time I could dedeicate to the task.
+
+Thank you for giving me the opportunity to complete this task, I have enjoyed learning a few new things along the way. I hope you are pleasantly surprised by my work.
