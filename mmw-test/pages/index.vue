@@ -7,6 +7,12 @@
 <script>
 import Home from "../components/Home";
 export default {
+  head(){
+    return {
+      title: 'Mainline Menswear Front End Technical Test',
+    }
+  },
+
   components: {Home},
 
   methods:{

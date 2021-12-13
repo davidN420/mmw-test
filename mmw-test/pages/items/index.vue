@@ -14,6 +14,12 @@
 import Items from "../../components/Items";
 export default {
   name: "items",
+  head(){
+    return{
+      title: 'Product Enquiry Web Application',
+    }
+  },
+
   components: {Items},
 
   data() {

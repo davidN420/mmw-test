@@ -27,7 +27,7 @@
           <label>Have you found this item cheaper on a competitor website?*</label><br>
           <div class="radbut">
             <label class="radio">Yes
-              <input v-on:change="competitorYes" type="radio" id="Yes"name="competitor" value="Yes" required>
+              <input v-on:change="competitorYes" type="radio" id="Yes" name="competitor" value="Yes" required>
               <span class="checkmark"></span>
             </label>
             <label class="radio">No
@@ -83,6 +83,12 @@ import axios from "axios";
 export default {
   name: "index",
   components: {Product},
+
+  head(){
+    return {
+      title: this.itemName,
+    }
+  },
 
   data() {
     return {

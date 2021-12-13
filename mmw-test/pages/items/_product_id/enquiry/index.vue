@@ -11,6 +11,12 @@ import Complete from "@/components/Complete";
 export default {
   name: "index",
 
+  head(){
+    return {
+      title: 'Enquiry Submitted',
+    }
+  },
+
   components: {Complete},
 
 }
